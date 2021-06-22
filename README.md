@@ -61,10 +61,6 @@
 - DHCP 패킷 검색
 	- : bootp (와이어샤크에서는 아직까지도 bootp를 dhcp로 인식한다.)
 
-
-
-
-
-
-
+- AND, OR
+    - ip.addr == 13.XXX.X.XX and tcp.port == 80
 
