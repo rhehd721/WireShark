@@ -64,3 +64,39 @@
 - AND, OR
     - ip.addr == 13.XXX.X.XX and tcp.port == 80
 
+---------------------------------------------------------------------------------------------------
+
+
+ip.addr == ( )
+
+ip.src == ( )
+
+ip.dst == ( )
+
+eth == ( )
+
+eth.src == ( )
+
+etc.dst == ( )
+
+tcp.port == ( )
+
+tcp.dstport == ( )
+
+tcp.flags == ( )
+
+tcp contains ( )
+
+http contains ( )
+
+udp contains ()
+
+tcp.flags.reset == 1
+
+http.host contains " "
+
+http and data-text-lines contains " "
+
+http.request.full_uri contains " "
+
+http.request.method == GET or POST
